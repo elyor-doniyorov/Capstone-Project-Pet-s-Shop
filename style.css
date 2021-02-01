@@ -1,0 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+.img-text1 p {
+  width: 200px;
+  height: 100px;
+}
