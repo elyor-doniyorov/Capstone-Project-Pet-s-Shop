@@ -2,11 +2,11 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# NEWSWEEK Clone Project
 
 
 
-Clone of the The Next Web website page putting emphasis on how it behaves differently depending on the size of the screen.
+
+CAPSTONE Project website page putting emphasis on how it behaves differently depending on the size of the screen.
 
 ## Built With
 
@@ -19,7 +19,7 @@ Clone of the The Next Web website page putting emphasis on how it behaves differ
 ## Live Demo
 
 HEAD TO
-[NEWSWEEK PROJECT](https://billodiallo.github.io/newsweek2020/)
+[CAPSTONE PROJECT](https://billodiallo.github.io/newsweek2020/)
 =======
 
 
@@ -39,20 +39,13 @@ HEAD TO
 
 
 
-## Authors
+## Author
 
 👤 **Elyor Doniyorov**
 
 - GitHub: [@EL28DEV](https://github.com/EL28DEV)
 - Twitter: [@elyor](https://twitter.com/elyor)
 - LinkedIn: [Elyor Doniyorov](https://www.linkedin.com/in/elyor-doniyorov)
-
-👤 **Mamadou Billo Diallo**
-
-
-- GitHub:[@billodiallo](https://github.com/billodiallo)
-- Twitter: [@BilloDi83547008](https://twitter.com/BilloDi83547008)
-- Linkedin:[@mabillodiallo](https://www.linkedin.com/in/mabillodiallo/)
 
 ## Getting Started
 
@@ -61,15 +54,15 @@ HEAD TO
 
 
 To get a local copy up and running follow these simple example steps.
-- Clone this repository with git clone```https://github.com/billodiallo/newsweek2020.git``` using your terminal or command line.
+- Clone this repository with git clone```git``` using your terminal or command line.
 - Change to the project directory by entering : <br>
-```cd newsweek2020``` in the terminal .
+```cd ``` in the terminal .
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page]().
 
 ## Show your support
 
