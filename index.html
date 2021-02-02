@@ -13,33 +13,34 @@
 
 <body>
 
-  <nav class="navbar navbar-expand bg-dark navbar-dark">
+  <nav class="navbar navbar-expand nav-showcase navbar-dark">
     <div class="container">
       <div class="collapse navbar-collapse" id="mainNav">
         <div class="navbar-nav">
-          <a href="" class="navbar-brand">zooplus</a>
-          <a class="nav-item nav-link" href="#"><i class="fas fa-home"></i>Home</a>
-          <a class="nav-item nav-link" href="#"><i class="fas fa-square"></i>About</a>
-          <a class="nav-item nav-link" href="#"><i class="fas fa-shopping-cart"></i>Training</a>
+          <a href="" class="navbar-brand p-3">zooplus</a>
+          <a class="nav-item nav-link p-3" href="#"><i class="fas fa-home"></i>Home</a>
+          <a class="nav-item nav-link p-3" href="#"><i class="fas fa-th-large"></i>About</a>
+          <a class="nav-item nav-link p-3" href="#"><i class="fas fa-shopping-cart"></i>Training</a>
+          <button type="button" class="btn btn-danger text-white rounded"><small>POST AN AD</small></button>
         </div>
       </div>
     </div>
   </nav>
 
-  <div class="jumbotron jumbotron-fluid bg-danger text-white text-center">
+  <div class="jumbotron jumbotron-fluid showcase text-white text-center">
     <div class="container">
       <h1 class="display-1">zooplus</h1>
       <p class="lead">WELCOME to zooplus!</p>
     </div>
 
-    <div class="input-group input-group-sm mb-3 pb-3">
+    <div class="input-group input-group-sm mb-3 pb-3 justify-content-center">
       <div class="input-group-prepend">
-        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+        <button class="btn btn-outline-dark bg-light dropdown-toggle" type="button" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">Dropdown</button>
       </div>
-      <input type="text" class="form-control" aria-label="Small" >
-      <input type="text" class="form-control" aria-label="Small" >
-      <button class="btn btn-outline-success " type="submit">Search</button>
+      <input class="w-25" type="text" placeholder=" search for any..." class="form-control" aria-label="Small">
+      <input class="w-25" type="text" placeholder=" search for any..." class="form-control" aria-label="Small">
+      <a href="search.html"><button class="btn btn-outline-secondary bg-dark" type="submit">Search</button></a>
     </div>
   </div>
 
@@ -53,7 +54,7 @@
             <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
-            <h4>Dog Food</h4>
+            <h4>Top Recommendations</h4>
             <div class="carousel-item active">
               <div class="row">
                 <div class="col-sm-4">
@@ -108,9 +109,17 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/dog-food-1.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5 class="text-center">Royal Canin Medium Digestive Care</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star-half text-warning"></i></a>
+                      <h6 class="text-center">Royal Canin Medium Digestive Care</h6>
+                      <!-- <small>from: Tashkent, UZB</small><br> -->
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
+                      
                     </div>
                   </div>
                 </div>
@@ -118,9 +127,16 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/dog-food-2.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5 class="text-center">Pedigree Dentastix - Daily Oral Care Saver Pack</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i></a>
+                      <h6 class="text-center">Pedigree Dentastix - Daily Oral Care Saver Pack</h6>
+                      <!-- <small>from: Tashkent, UZB</small><br> -->
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -128,9 +144,16 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/dog-food-3.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>KONG Wild Knots Bears</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star-half text-warning"></i></a>
+                      <h6>KONG Wild Knots Bears</h6>
+                      <!-- <small>from: Tashkent, UZB</small><br> -->
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -142,9 +165,16 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/dog-food-4.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>Wolf of Wilderness RAW Freeze-dried Dog Snacks - 30% Off!*</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i></a>
+                      <h6>Wolf of Wilderness RAW Freeze-dried Dog Snacks - 30% Off!*</h6>
+                      <!-- <small>from: Tashkent, UZB</small><br> -->
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -152,9 +182,16 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/cat-food-1.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>Wolf of Wilderness RAW Freeze-dried Dog Snacks - 30% Off!*</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star-half text-warning"></i></a>
+                      <h6>Wolf of Wilderness RAW Freeze-dried Dog Snacks - 30% Off!*</h6>
+                      <!-- <small>from: Tashkent, UZB</small><br> -->
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -162,9 +199,16 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/cat-food-2.jpg" alt=""></div>
                     <div class="img-text">
-                      <h2>Wolf of Wilderness RAW Freeze-dried Dog Snacks - 30% Off!*</h2>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star-half text-warning"></i></a>
+                      <h6>Wolf of Wilderness RAW Freeze-dried Dog Snacks - 30% Off!*</h6>
+                      <!-- <small>from: Tashkent, UZB</small><br> -->
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -194,9 +238,15 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/cat-food-1.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>Cat's Best Original Cat litter</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i></a>
+                      <h6>Cat's Best Original Cat litter</h6>
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -204,9 +254,15 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/cat-food-2.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>Catessy Sticks – 10 sticks</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <i class="fas fa-star-half text-warning"></i></a>
+                      <h6>Catessy Sticks – 10 sticks</h6>
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -214,9 +270,15 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/cat-food-3.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>Almo Nature 6 x 70g</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <i class="fas fa-star-half text-warning"></i></a>
+                      <h6>Almo Nature 6 x 70g</h6>
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -228,9 +290,15 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/cat-food-4.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>6.5kg Purizon Dry Cat Food - €10 Off!*</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <i class="fas fa-star text-warning"></i></a>
+                      <h6>6.5kg Purizon Dry Cat Food - €10 Off!*</h6>
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -238,9 +306,15 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/cat-food-1.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>Cat's Best Original Cat litter</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <i class="fas fa-star-half text-warning"></i></a>
+                      <h6>Cat's Best Original Cat litter</h6>
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -248,9 +322,15 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/cat-food-2.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>6.5kg Purizon Dry Cat Food - €10 Off!*</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i></a>
+                      <h6>6.5kg Purizon Dry Cat Food - €10 Off!*</h6>
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -280,9 +360,15 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/viewed-1.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>GimCat GrasBits</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <i class="fas fa-star-half text-warning"></i></a>
+                      <h6>GimCat GrasBits</h6>
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -290,9 +376,15 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/viewed-2.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>thrive Complete Saver Pack 24 x 75g</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <i class="fas fa-star text-warning"></i></a>
+                      <h6>thrive Complete Saver Pack 24 x 75g</h6>
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -300,9 +392,15 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/viewed-3.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>Almo Nature Daily Menu 6 x 70g</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <i class="fas fa-star text-warning"></i></a>
+                      <h6>Almo Nature Daily Menu 6 x 70g</h6>
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -314,9 +412,15 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/viewed-4.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>Catsan Hygiene Plus Cat Litter</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i></a>
+                      <h6>Catsan Hygiene Plus Cat Litter</h6>
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -324,9 +428,15 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/viewed-2.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>Cat's Best Original Cat litter</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <i class="fas fa-star text-warning"></i></a>
+                      <h6>Cat's Best Original Cat litter</h6>
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -334,9 +444,15 @@
                   <div class="single-box">
                     <div class="img-area"><img src="images/viewed-1.jpg" alt=""></div>
                     <div class="img-text">
-                      <h5>Almo Nature Daily Menu 6 x 70g</h5>
-                      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore illo magni necessitatibus nulla porro, aperiam asperiores! Ratione -->
-                      <!-- </p> -->
+                      <a href=""class="d-flex justify-content-center">
+                        <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i>
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <!-- <i class="fas fa-star text-warning"></i> -->
+                        <i class="fas fa-star-half text-warning"></i></a>
+                      <h6>Almo Nature Daily Menu 6 x 70g</h6>
+                      <small>Was 25.49$</small><br>
+                      <small class="text-danger">Now 25.49$</small>
                     </div>
                   </div>
                 </div>
@@ -365,14 +481,14 @@
 
 
     <footer class="d-flex-column mt-5">
-      <div class="top d-flex">
-        <div class="">
+      <div class="top d-flex ">
+        <div class="w-50 mx-auto">
         <h3 class="text-center">zooplus</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nam vel exercitationem sapiente. Soluta, eveniet facere sapiente, ipsam fugiat eaque iusto mollitia ipsa sunt amet nulla, praesentium quo explicabo? Assumenda!</p>
+        <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nam vel exercitationem sapiente. Soluta, eveniet facere sapiente, ipsam fugiat eaque iusto mollitia ipsa sunt amet nulla, praesentium quo explicabo? Assumenda!</p>
       </div>
-      <div>
-        <h5 class="border-bottom mb-2">CATEGORIES</h5>
-        <ul class="text-decoration-none list-unstyled">
+      <div class="w-25">
+        <h5 class="text-danger mb-2">CATEGORIES</h5>
+        <ul class="text-decoration-none list-unstyled border-top border-danger">
           <li><a href="" class="text-decoration-none text-dark">Dog</a></li>
           <li><a href="" class="text-decoration-none text-dark">Cat</a></li>
           <li><a href="" class="text-decoration-none text-dark">Small Pet</a></li>

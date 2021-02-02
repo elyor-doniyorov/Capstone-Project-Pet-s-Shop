@@ -1,8 +1,22 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+.nav-showcase {
+  background-color: #383838;
+}
+
+.showcase {
+  background-color: #d35266;
 }
 
 .img-text1 p {
   width: 200px;
   height: 100px;
+}
+
+.search-img {
+  width: 150px;
 }
