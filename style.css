@@ -12,6 +12,11 @@
   background-color: #d35266;
 }
 
+/* .email-pic {
+  width: 50%;
+  height: 20px;
+} */
+
 .img-text1 p {
   width: 200px;
   height: 100px;
@@ -19,4 +24,8 @@
 
 .search-img {
   width: 150px;
+}
+
+@media only screen (min-width: 768px;) {
+  footer
 }

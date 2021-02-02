@@ -6,7 +6,7 @@
 
 
 
-CAPSTONE Project website page putting emphasis on how it behaves differently depending on the size of the screen.
+CAPSTONE Project website page putting emphasis on client wishes how it behaves differently depending on the size of the screen.
 
 ## Built With
 
@@ -31,8 +31,6 @@ HEAD TO
 -  Knowledge about HTML and CSS
 -  Bootstrap
 -  HTML Semantic elements
--  CSS flex property
--- CSS grid property
 -  Media querry
 
 
