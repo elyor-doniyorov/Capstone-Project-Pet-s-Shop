@@ -8,14 +8,13 @@
   background-color: #383838;
 }
 
+.small-color {
+  color: #888888;
+}
+
 .showcase {
   background-color: #d35266;
 }
-
-/* .email-pic {
-  width: 50%;
-  height: 20px;
-} */
 
 .img-text1 p {
   width: 200px;
