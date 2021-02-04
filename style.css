@@ -29,19 +29,17 @@
   width: 150px;
 }
 
-/* @media (max-width: 425px) {
-
-} */
-
-
 @media (min-width: 768px) {
   .backr {
-    width: ;
     background-image: none;
     background-position: right;
     background-size: cover;
     margin-left: 10px;
     margin-right: auto;
+  }
+
+  .centerd {
+    padding-left: 8px;
   }
 }
 
@@ -89,8 +87,6 @@
 
   .navigations {
     width: 50%;
-    margin-left: ;
-    margin-right: ;
   }
 
   .imgs {
@@ -98,14 +94,12 @@
   }
 }
 
-/* @media (min-width: 1024px) {
-  .no-item {
-    display: none;
-  }
-} */
-
 @media (max-width: 1024px) {
   .no-item {
     display: none;
+  }
+
+  .centerd {
+    padding-left: 8px;
   }
 }
