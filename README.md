@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Capstone Online Pet's Food Shop Project
+![Capstone Project](https://user-images.githubusercontent.com/67087664/106931160-16022180-6738-11eb-93bf-a63755dd6e09.png)
 
 
 
@@ -17,7 +18,7 @@ Online Pet's Food Shop Project putting emphasis on client's wishes and how it be
 ## Live Demo
 
 HEAD TO
-[Pet's Food Shop PROJECT](https://github.com/EL28DEV/Capstone-Project-Pet-s-Shop)
+[Pet's Food Shop PROJECT](https://el28dev.github.io/Capstone-Project-Pet-s-Shop/)
 =======
 
 
