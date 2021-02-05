@@ -25,6 +25,20 @@
   height: 100px;
 }
 
+.img-size {
+  width: 300px;
+  height: 300px;
+}
+
+.heybro {
+  width: 250px;
+  height: 250px;
+}
+
+.same-size {
+  width: 200px;
+}
+
 .search-img {
   width: 150px;
 }
@@ -40,6 +54,11 @@
 
   .centerd {
     padding-left: 8px;
+  }
+
+  .img-size {
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -70,6 +89,11 @@
     overflow-x: unset;
   }
 
+  .img-size {
+    width: 120px;
+    height: 120px;
+  }
+
   .smaller {
     font-size: 52px;
   }
@@ -94,10 +118,18 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .no-item {
     display: none;
   }
+
+  .make-it-small {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  
 
   .centerd {
     padding-left: 8px;
