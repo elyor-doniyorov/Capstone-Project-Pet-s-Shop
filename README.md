@@ -1,6 +1,6 @@
 # Capstone Online Pet's Food Shop Project
 
-> This is 
+> This is The Pet's Food Online Shop Capstone project
 
 ![screenshot](images/capstone.png)
 
