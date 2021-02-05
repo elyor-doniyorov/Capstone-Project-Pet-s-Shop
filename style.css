@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.container-fluid {
+  max-width: 1310px;
+}
+
 .con-column {
   overflow-x: unset;
 }
