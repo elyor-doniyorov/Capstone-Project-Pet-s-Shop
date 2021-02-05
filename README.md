@@ -22,7 +22,7 @@ Online Pet's Food Shop Project putting emphasis on client's wishes and how it be
 ## Live Demo
 
 HEAD TO
-[Pet's Food Shop PROJECT](https://el28dev.github.io/Capstone-Project-Pet-s-Shop/)
+[Pet's Food Shop PROJECT](https://el28dev.github.io/Capstone/.)
 =======
 
 
