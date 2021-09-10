@@ -15,12 +15,12 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://el28dev.github.io/Capstone-Project-Pet-s-Shop/)
+[Live Demo Link](https://rawcdn.githack.com/elyor-doniyorov/Capstone-Project-Pet-s-Shop/6887ae224b4abfa4820ac8fb1a6c38846edf9bb1/index.html)
 
 ## Author
 
-- GitHub: [@Elyor](https://github.com/EL28DEV)
-- LinkedIn: [Elyor](https://www.linkedin.com/feed/)
+- GitHub: [@Elyor Doniyorov](https://github.com/EL28DEV)
+- LinkedIn: [@Elyor Doniyorov](https://www.linkedin.com/in/elyor-doniyorov/)
 
 ## Getting Started
 
